@@ -16,4 +16,10 @@ Solving steps:
 4. Once you acheive last row and column, it means you filled the board. 
 5. Any problem in above steps means that one of the previously tried numbers are problematic. So go back to that, change it to something else and try same steps again.
 
+### Example Output
+<p align="center">
+<img src="https://i.hizliresim.com/7VWOny.png">
+</p>
+
+---------------
 * Program does not allow user to try to solve the board. This feature might come after an interface.
