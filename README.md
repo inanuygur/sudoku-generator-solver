@@ -1,5 +1,7 @@
 # 🧠 Sudoku Oluşturucu ve Çözücü
 
+Sudoku Oluşturucu ve Çözücü
+
 Bu program, kullanıcıdan bir zorluk seviyesi ister, verilen seviyeyi kullanarak bir sudoku tahtası oluşturur ve oluşturulan tahtayı çözer.
 
 Diğer birçok sudoku çözücü programı gibi benimki de 'Geri İzleme' sürecini kullanıyor ve bu süreç oldukça derin yinelemeli çağrılardan oluşuyor, bu nedenle sürecin zihinde görselleştirilmesi kolay değil.
