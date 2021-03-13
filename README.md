@@ -1,6 +1,6 @@
 # 🧠 Sudoku Oluşturucu ve Çözücü
 
-Sudoku Oluşturucu ve Çözücü
+## Sudoku Oluşturucu ve Çözücü
 
 Bu program, kullanıcıdan bir zorluk seviyesi ister, verilen seviyeyi kullanarak bir sudoku tahtası oluşturur ve oluşturulan tahtayı çözer.
 
