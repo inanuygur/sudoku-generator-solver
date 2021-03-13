@@ -1,3 +1,30 @@
+# Sudoku Oluşturucu ve Çözücü
+
+Bu program, kullanıcıdan bir zorluk seviyesi ister, verilen seviyeyi kullanarak bir sudoku tahtası oluşturur ve oluşturulan tahtayı çözer.
+
+Diğer birçok sudoku çözücü programı gibi benimki de 'Geri İzleme' sürecini kullanıyor ve bu süreç oldukça derin yinelemeli çağrılardan oluşuyor, bu nedenle sürecin zihinde görselleştirilmesi kolay değil.
+
+Nesil kısmı ayrıca çözücü kısmını da kullanır. İşte oluşturma adımları:
+1. Çapraz 3 alt ızgarayı uygun şekilde rastgele rakamlarla doldurun (aynı rakamı iki kez kullanmadan).
+2. Yarısı oluşturulmuş panoyu çözün.
+3. Rastgele sayıları kaldırmaya çalışın ve ortaya çıkan kartın kaldırılan numarayla değişmediğinden emin olun.
+
+Çözme adımları:
+1. Verilen satır ve sütunun boş olup olmadığını kontrol edin, öyleyse bir rakam deneyin.
+2. Bir değer verilen satır ve sütuna ayarlanmışsa, aynı satırdaki sonraki sayıya gidin. Satır bittiyse, sonraki satıra git.
+3. İlk ile başlayan her satır için 1. ve 2. yapmaya çalışın.
+4. Son satır ve sütuna ulaştığınızda, panoyu doldurmuşsunuz demektir.
+5. Yukarıdaki adımlardaki herhangi bir sorun, daha önce denenen numaralardan birinin sorunlu olduğu anlamına gelir. Öyleyse buna geri dönün, başka bir şeyle değiştirin ve aynı adımları tekrar deneyin.
+
+### Örnek Çıktı
+<p align = "center">
+<img src = "https://i.hizliresim.com/7VWOny.png">
+</p>
+
+* Program, kullanıcının panoyu çözmeye çalışmasına izin vermez. Bu özellik bir arayüzden sonra gelebilir.
+
+---------------
+
 # Sudoku Generator & Solver
 
 This program asks the user for a difficulty level, generates a sudoku board using given level and solves the generated board.
@@ -21,5 +48,4 @@ Solving steps:
 <img src="https://i.hizliresim.com/7VWOny.png">
 </p>
 
----------------
 * Program does not allow user to try to solve the board. This feature might come after an interface.
