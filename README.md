@@ -22,7 +22,9 @@ Nesil kısmı ayrıca çözücü kısmını da kullanır. İşte oluşturma adı
 
 ### Örnek Çıktı
 
-![](https://i.hizliresim.com/7VWOny.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/51864516/116006777-655c3d80-a615-11eb-9eb1-a59b271c2a70.png">
+</p>
 
 * Program, kullanıcının panoyu çözmeye çalışmasına izin vermez. Bu özellik bir arayüzden sonra gelebilir.
 
@@ -48,7 +50,9 @@ Solving steps:
 
 ### Example Output
 
-![](https://i.hizliresim.com/7VWOny.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/51864516/116006777-655c3d80-a615-11eb-9eb1-a59b271c2a70.png">
+</p>
 
 * Program does not allow user to try to solve the board. This feature might come after an interface.
 
